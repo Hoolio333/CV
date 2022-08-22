@@ -219,6 +219,19 @@ img {
     height: auto;
 }
 
+.portfolio {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    border: 2px solid rgb(112, 112, 112);
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.portfolio:hover{
+    background-color: #707070;
+    color: black;
+}
+
 /*========== CLASS CSS ==========*/
 .section {
     padding: .5rem 0;
@@ -348,8 +361,8 @@ img {
 }
 
 .home__img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 242px;
     border-radius: 50%;
     justify-self: center;
     margin-bottom: var(--mb-1);
@@ -525,6 +538,8 @@ padding-top: 17px;
 
 
 /*========== INTERESTS ==========*/
+
+.
 
 .interests__container {
     grid-template-columns: repeat(5, 1fr);
